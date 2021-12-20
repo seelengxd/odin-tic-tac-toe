@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-wrap:wrap;
+  width: 600px;
+  height: 600px;
+  gap: 10px;
+  
+}
+
+.card{
+  flex: 1 0 180px;
+  height: 200px;
+  background-color: lightcyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  font-size: 32px;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: sans-serif;
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  font-size: 48px;
+}
